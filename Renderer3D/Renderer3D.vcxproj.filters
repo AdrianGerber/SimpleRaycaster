@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Quelldateien\Map">
+      <UniqueIdentifier>{111cac05-3ff7-4c4f-90f0-3951487e9da3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Map">
+      <UniqueIdentifier>{c88f7bd8-1679-4e2c-a54e-96fe87ecef0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Game">
+      <UniqueIdentifier>{4592ccfb-fb80-4fac-ac9b-9c63196dde2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Game">
+      <UniqueIdentifier>{24a063f0-5cbe-4f31-899f-c8a156cdffb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Raycaster">
+      <UniqueIdentifier>{ded11143-247b-42dc-b14e-aafd8176d432}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Raycaster">
+      <UniqueIdentifier>{de063c32-3a1d-44d3-98e9-c3838f3747a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Raycaster\RenderVariants">
+      <UniqueIdentifier>{a151ea44-26d6-4183-9579-53427c352d1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Raycaster\RenderVariants">
+      <UniqueIdentifier>{b659fc9f-271c-4183-a763-9902ff90add4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="MapTile.cpp">
+      <Filter>Quelldateien\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Quelldateien\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Quelldateien\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Quelldateien\Raycaster</Filter>
+    </ClCompile>
+    <ClCompile Include="RayIntersection.cpp">
+      <Filter>Quelldateien\Raycaster</Filter>
+    </ClCompile>
+    <ClCompile Include="RayIntersectionBuffer.cpp">
+      <Filter>Quelldateien\Raycaster</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Quelldateien\Raycaster</Filter>
+    </ClCompile>
+    <ClCompile Include="Raycaster.cpp">
+      <Filter>Quelldateien\Raycaster</Filter>
+    </ClCompile>
+    <ClCompile Include="LineRenderer.cpp">
+      <Filter>Quelldateien\Raycaster\RenderVariants</Filter>
+    </ClCompile>
+    <ClCompile Include="PolygonRenderer.cpp">
+      <Filter>Quelldateien\Raycaster\RenderVariants</Filter>
+    </ClCompile>
+    <ClCompile Include="MapRenderer.cpp">
+      <Filter>Quelldateien\Raycaster\RenderVariants</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigFile.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MapTile.h">
+      <Filter>Headerdateien\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Headerdateien\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Headerdateien\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="defs.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Headerdateien\Raycaster</Filter>
+    </ClInclude>
+    <ClInclude Include="RayIntersection.h">
+      <Filter>Headerdateien\Raycaster</Filter>
+    </ClInclude>
+    <ClInclude Include="RayIntersectionBuffer.h">
+      <Filter>Headerdateien\Raycaster</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Headerdateien\Raycaster</Filter>
+    </ClInclude>
+    <ClInclude Include="Raycaster.h">
+      <Filter>Headerdateien\Raycaster</Filter>
+    </ClInclude>
+    <ClInclude Include="PolygonRenderer.h">
+      <Filter>Headerdateien\Raycaster\RenderVariants</Filter>
+    </ClInclude>
+    <ClInclude Include="LineRenderer.h">
+      <Filter>Headerdateien\Raycaster\RenderVariants</Filter>
+    </ClInclude>
+    <ClInclude Include="MapRenderer.h">
+      <Filter>Headerdateien\Raycaster\RenderVariants</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigFile.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
